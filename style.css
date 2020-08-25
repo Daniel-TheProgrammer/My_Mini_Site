@@ -1,0 +1,40 @@
+header{
+    background: url("IMAGE/home.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    font-size: 5px !important;
+}
+    .section{
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+}
+.tabs .indicator{
+    background-color: #09116b;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background:transparent;
+}
+
+
+@media screen and (max-width: 670px){
+header{
+ min-height: 300px;
+}
+.brand-logo{
+    font-size: 26px !important;
+}
+}
+
+.sidenav li{
+    background-color: blue;
+     
+    background-size: cover;
+    font-size: 26px !important;
+}
+.sidenav{
+    
+    background: url("IMAGE/img1\ \(2\).jpg");
+    background-size: cover;
+    font-size: 26px !important;
+}
